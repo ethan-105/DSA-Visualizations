@@ -6,6 +6,7 @@ var center = window.innerWidth / 2;
 var x = window.innerWidth / 2;
 
 function getCursor(event) {
+    center = window.innerWidth / 2; // should update since the size of window may have changed
     x = event.clientX;
 }
 
