@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Testing Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
 <body>
+    <p>Welcome to the testing page!<br />
+       Move the cursor to the sides to rotate it that way!</p>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <div onmousemove="getCursor(event)" class="container">
+        <div id="square"></div>
+    </div>
 
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
