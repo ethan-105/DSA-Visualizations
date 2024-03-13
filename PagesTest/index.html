@@ -1,16 +1,31 @@
 <!DOCTYPE html>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+    }
+</style>
 <html>
 <head>
     <title>Testing Page</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the testing page!</h1>
-        <h3>Move the cursor to the sides to rotate it that way!</h3>
-    </div>
+    <h1>Welcome to the testing page!</h1>
+    <h3>Move the cursor to the sides to rotate it to the left or right!</h3>
     
-    <div onmousemove="getCursor(event)" class="container">
+    <div onmousemove="getCursor(event)" class="container" id="square_space">
         <div id="square"></div>
     </div>
 

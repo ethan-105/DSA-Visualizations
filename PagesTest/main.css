@@ -1,6 +1,6 @@
 #square {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
     background-color: #202020;
     position: relative;
@@ -8,10 +8,14 @@
     margin: 10px 0;
 }
 
+#square_space {
+    height: 500px;
+    border: 6px dashed #202020;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40em;
-    outline: 5px dashed black;
+    height: 500px;
 }
